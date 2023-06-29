@@ -72,84 +72,82 @@
 			</div>
 		</header>
 		<main class="page">
-			<section class="catalog">
-				<div class="catalog__container">
-					<h2 class="catalog__use"> Вы пользуетесь Название 00 часов 00 мин</h2>
-					<a href="status.html" class="catalog__btn">Завершить</a>
-					<ul class="catalog__list">
-						<li class="catalog__item">
-							<a href="catalog-single.html" class="catalog__link">
-								<div class="catalog__img">
+			<section class="product">
+				<div class="product__container">
+					<div class="product__top">
+						<a href="catalog-single.html" class="product__link-back">&#10229;</a>
+						<div class="product__name">
+							<h1 class="product__title">Беспроводной пылесос</h1>
+							<p class="product__sub-title">iRobot | Brava jet m6</p>
+						</div>
+					</div>
+					<div class="product__content">
+						<!-- Оболочка слайдера -->
+						<div class="product__slider swiper">
+							<!-- Двигающееся часть слайдера -->
+							<div class="product__wrapper swiper-wrapper">
+								<!-- Слайд -->
+								<div class="product__slide swiper-slide">
 									<picture>
 										<source srcset="img/robot.webp" type="image/webp"><img src="img/robot.jpg" alt="Lorem">
 									</picture>
 								</div>
-								<div class="catalog__title">
-									<h2 class="">Печать</h2>
-								</div>
-							</a>
-						</li>
-						<li class="catalog__item">
-							<a href="" class="catalog__link">
-								<div class="catalog__img">
+								<!-- Слайд -->
+								<div class="product__slide swiper-slide">
 									<picture>
 										<source srcset="img/robot.webp" type="image/webp"><img src="img/robot.jpg" alt="Lorem">
 									</picture>
 								</div>
-								<div class="catalog__title">
-									<h2 class="">Чистота</h2>
-								</div>
-							</a>
-						</li>
-						<li class="catalog__item">
-							<a href="" class="catalog__link">
-								<div class="catalog__img">
+								<!-- Слайд -->
+								<div class="product__slide swiper-slide">
 									<picture>
 										<source srcset="img/robot.webp" type="image/webp"><img src="img/robot.jpg" alt="Lorem">
 									</picture>
 								</div>
-								<div class="catalog__title">
-									<h2 class="">Развлечение</h2>
-								</div>
-							</a>
-						</li>
-						<li class="catalog__item">
-							<a href="" class="catalog__link">
-								<div class="catalog__img">
+								<!-- Слайд -->
+								<div class="product__slide swiper-slide">
 									<picture>
 										<source srcset="img/robot.webp" type="image/webp"><img src="img/robot.jpg" alt="Lorem">
 									</picture>
 								</div>
-								<div class="catalog__title">
-									<h2 class="">Спорт</h2>
-								</div>
-							</a>
-						</li>
-						<li class="catalog__item">
-							<a href="" class="catalog__link">
-								<div class="catalog__img">
+								<!-- Слайд -->
+								<div class="product__slide swiper-slide">
 									<picture>
 										<source srcset="img/robot.webp" type="image/webp"><img src="img/robot.jpg" alt="Lorem">
 									</picture>
 								</div>
-								<div class="catalog__title">
-									<h2 class="">Кухня</h2>
-								</div>
-							</a>
-						</li>
-						<li class="catalog__item">
-							<a href="" class="catalog__link">
-								<div class="catalog__img">
+								<!-- Слайд -->
+								<div class="product__slide swiper-slide">
 									<picture>
 										<source srcset="img/robot.webp" type="image/webp"><img src="img/robot.jpg" alt="Lorem">
 									</picture>
 								</div>
-								<div class="catalog__title">
-									<h2 class="">Сделай сам</h2>
-								</div>
-							</a>
-						</li>
-					</ul>
+							</div>
+							<!-- Если нужна пагинация -->
+							<div class="swiper-pagination"></div>
+						</div>
+						<div class="product__body">
+							<a href="" class="product__tax-min" data-popup="#popup">220 Р / 30 мин</a>
+							<p class="product__tax-hours">550 Р / 4 часа</p>
+							<p class="product__text">
+								Lorem ipsum, dolor sit amet consectetur adipisicing elit. Pariatur, quo?</p>
+							<a href="use.html" class="product__link-use">Как пользоваться</a>
+							<br><br>
+							<h2 class="catalog__use">В вашем кошельке 345рублей</h2>
+							<div class="">
+								<a href="generationPin.html" class="product__btn product__btn_p" >Начать 30 минут</a>
+								<a href="generationPin.html" class="product__btn product__btn_p" >Начать 4 часа</a>
+							</div>
+							<br>
+							<p class="product__text">
+								Обратите внимание, при выборе тарифа превышающего баланс на Вашем кошельке, недостающая сумма будет автоматически списана с Вашей карты</p>
+							<!--При недостатке средств
+							Недостающая сумма будет списана автоматически с привязанной приоритетной карты
+							-->
+							
+							<p class="product__text">Вы должны находится около постамата, так как на следующем шаге вы должны будете ввести ПИН-код, в течение 30 секунд</p>
+						</div>
+					</div>
 				</div>
 			</section>
 		</main>
@@ -210,11 +208,29 @@
 			<div class="popup__content">
 				<button data-close type="button" class="popup__close">X</button>
 				<div class="popup__text">
-					<a href class="popup__btn" data-popup="#choose">Начать пользоваться</a>
-					<p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Culpa accusantium numquam labore odit sequi, facilis tempora non cum earum corrupti!</p>
+					<a href class="popup__btn" >Начать 30 минут</a>  
+					<a href class="popup__btn" >Начать 4 часа</a>
+					<p>В вашем кошельке 345рублей</p>
 					<br>
 					<br>
-					<p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Culpa accusantium numquam labore odit sequi, facilis tempora non cum earum corrupti!</p>
+					<p>Обратите внимание, при выборе тарифа превышающего баланс на Вашем кошельке, недостающая сумма будет автоматически списана с Вашей карты</p>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div id="notchoose" aria-hidden="true" class="popup">
+		<div class="popup__wrapper">
+			<div class="popup__content">
+				<button data-close type="button" class="popup__close">X</button>
+				<div class="popup__text">
+					<a href class="popup__btn" >Начать 30 минут</a>  
+					<a href class="popup__btn" >Начать 4 часа</a>
+					<p>На вашем кошельке не хватает 342 руб.</p>
+					<br>
+					<br>
+					<p>Недостающая сумма будет списана автоматически с привязанной приоритетной карты</p>
+					<br>
+					<p>Вы должны находится около постамата, так как на следующем шаге вы должны будете ввести ПИН-код, в течение 30 секунд</p>
 				</div>
 			</div>
 		</div>

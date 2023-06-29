@@ -7,7 +7,6 @@
 	<meta name="format-detection" content="telephone=no">
 	<!-- <style>body{opacity: 0;}</style> -->
 	<link rel="stylesheet" href="css/style.css">
-	<link rel="stylesheet" href="css/new.css">
 	<link rel="shortcut icon" href="favicon.ico">
 	<!-- <meta name="robots" content="noindex, nofollow"> -->
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -72,82 +71,209 @@
 			</div>
 		</header>
 		<main class="page">
-			<section class="catalog">
-				<div class="catalog__container">
-					<h2 class="catalog__use"> Вы пользуетесь Название 00 часов 00 мин</h2>
-					<a href="status.html" class="catalog__btn">Завершить</a>
-					<ul class="catalog__list">
-						<li class="catalog__item">
-							<a href="catalog-single.html" class="catalog__link">
-								<div class="catalog__img">
+			<section class="catalog-single">
+				<div class="catalog-single__container">
+					<!-- Оболочка слайдера -->
+					<div class="catalog-single__slider swiper">
+						<!-- Двигающееся часть слайдера -->
+						<div class="catalog-single__wrapper swiper-wrapper">
+							<!-- Слайд -->
+							<div class="catalog-single__slide swiper-slide">
+								<a href="catalog-single.html" class="catalog__link">
+									<div class="catalog-single__img">
+										<picture><source srcset="img/robot.webp" type="image/webp"><img src="img/robot.png" alt="Lorem"></picture>
+									</div>
+									<div class="catalog-single__title">
+										<h2 class="">Печать</h2>
+									</div>
+								</a>
+							</div>
+							<!-- Слайд -->
+							<div class="catalog-single__slide swiper-slide">
+								<a href="catalog-single.html" class="catalog__link">
+									<div class="catalog-single__img">
+										<picture><source srcset="img/robot.webp" type="image/webp"><img src="img/robot.png" alt="Lorem"></picture>
+									</div>
+									<div class="catalog-single__title">
+										<h2 class="">Печать</h2>
+									</div>
+								</a>
+							</div>
+							<!-- Слайд -->
+							<div class="catalog-single__slide swiper-slide">
+								<a href="catalog-single.html" class="catalog__link">
+									<div class="catalog-single__img">
+										<picture><source srcset="img/robot.webp" type="image/webp"><img src="img/robot.png" alt="Lorem"></picture>
+									</div>
+									<div class="catalog-single__title">
+										<h2 class="">Печать</h2>
+									</div>
+								</a>
+							</div>
+							<!-- Слайд -->
+							<div class="catalog-single__slide swiper-slide">
+								<a href="catalog-single.html" class="catalog__link">
+									<div class="catalog-single__img">
+										<picture><source srcset="img/robot.webp" type="image/webp"><img src="img/robot.png" alt="Lorem"></picture>
+									</div>
+									<div class="catalog-single__title">
+										<h2 class="">Печать</h2>
+									</div>
+								</a>
+							</div>
+							<!-- Слайд -->
+							<div class="catalog-single__slide swiper-slide">
+								<a href="catalog-single.html" class="catalog__link">
+									<div class="catalog-single__img">
+										<picture><source srcset="img/robot.webp" type="image/webp"><img src="img/robot.png" alt="Lorem"></picture>
+									</div>
+									<div class="catalog-single__title">
+										<h2 class="">Печать</h2>
+									</div>
+								</a>
+							</div>
+							<!-- Слайд -->
+							<div class="catalog-single__slide swiper-slide">
+								<a href="catalog-single.html" class="catalog__link">
+									<div class="catalog-single__img">
+										<picture><source srcset="img/robot.webp" type="image/webp"><img src="img/robot.png" alt="Lorem"></picture>
+									</div>
+									<div class="catalog-single__title">
+										<h2 class="">Печать</h2>
+									</div>
+								</a>
+							</div>
+						</div>
+					</div>
+					<h1>Развлечения</h1>
+					<ul class="catalog-single__list">
+						<li class="catalog-single__item">
+
+							<div class="catalog-single__img">
+								<a href="product.html">
 									<picture>
 										<source srcset="img/robot.webp" type="image/webp"><img src="img/robot.jpg" alt="Lorem">
 									</picture>
-								</div>
-								<div class="catalog__title">
-									<h2 class="">Печать</h2>
-								</div>
-							</a>
+								</a>
+							</div>
+							<div class="catalog-single__content">
+								<a href="product.html" class="catalog-single__name">iRobot | Brava jet m6</a>
+								<a href="product.html" class="catalog-single__title"> Беспроводной пылесос</a>
+								
+							</div>
+
 						</li>
-						<li class="catalog__item">
-							<a href="" class="catalog__link">
-								<div class="catalog__img">
+						<li class="catalog-single__item catalog-single__item_disable">
+
+							<div class="catalog-single__img">
+								<a href="product.html">
 									<picture>
 										<source srcset="img/robot.webp" type="image/webp"><img src="img/robot.jpg" alt="Lorem">
 									</picture>
-								</div>
-								<div class="catalog__title">
-									<h2 class="">Чистота</h2>
-								</div>
-							</a>
+								</a>
+							</div>
+							<div class="catalog-single__content">
+								<a href="product.html" class="catalog-single__name">iRobot | Brava jet m6</a>
+								<a href="product.html" class="catalog-single__title"> Беспроводной пылесос</a>
+								
+							</div>
+
 						</li>
-						<li class="catalog__item">
-							<a href="" class="catalog__link">
-								<div class="catalog__img">
+						<div class="checkbox">
+							<input id="c_1" data-error="Ошибка" class="checkbox__input" type="checkbox" value="1" name="form[]">
+							<label for="c_1" class="checkbox__label"><span class="checkbox__text">Сообщить когда доступен</span></label>
+						</div>
+						<li class="catalog-single__item catalog-single__item_disable">
+
+							<div class="catalog-single__img">
+								<a href="product.html">
 									<picture>
 										<source srcset="img/robot.webp" type="image/webp"><img src="img/robot.jpg" alt="Lorem">
 									</picture>
-								</div>
-								<div class="catalog__title">
-									<h2 class="">Развлечение</h2>
-								</div>
-							</a>
+								</a>
+							</div>
+							<div class="catalog-single__content">
+								<a href="product.html" class="catalog-single__name">iRobot | Brava jet m6</a>
+								<a href="product.html" class="catalog-single__title"> Беспроводной пылесос</a>
+								
+							</div>
+
 						</li>
-						<li class="catalog__item">
-							<a href="" class="catalog__link">
-								<div class="catalog__img">
+						<div class="checkbox">
+							<input id="c_2" data-error="Ошибка" class="checkbox__input" type="checkbox" value="2" name="form[]">
+							<label for="c_2" class="checkbox__label"><span class="checkbox__text">Сообщить когда доступен</span></label>
+						</div>
+						<li class="catalog-single__item">
+
+							<div class="catalog-single__img">
+								<a href="product.html">
 									<picture>
 										<source srcset="img/robot.webp" type="image/webp"><img src="img/robot.jpg" alt="Lorem">
 									</picture>
-								</div>
-								<div class="catalog__title">
-									<h2 class="">Спорт</h2>
-								</div>
-							</a>
+								</a>
+							</div>
+							<div class="catalog-single__content">
+								<a href="product.html" class="catalog-single__name">iRobot | Brava jet m6</a>
+								<a href="product.html" class="catalog-single__title"> Беспроводной пылесос</a>
+								<a href="product.html" class="catalog-single__counter">
+									<span class="catalog-single__counter-num">40</span> человек воспользовались на этой неделе
+								</a>
+							</div>
+
 						</li>
-						<li class="catalog__item">
-							<a href="" class="catalog__link">
-								<div class="catalog__img">
+						<li class="catalog-single__item">
+
+							<div class="catalog-single__img">
+								<a href="product.html">
 									<picture>
 										<source srcset="img/robot.webp" type="image/webp"><img src="img/robot.jpg" alt="Lorem">
 									</picture>
-								</div>
-								<div class="catalog__title">
-									<h2 class="">Кухня</h2>
-								</div>
-							</a>
+								</a>
+							</div>
+							<div class="catalog-single__content">
+								<a href="product.html" class="catalog-single__name">iRobot | Brava jet m6</a>
+								<a href="product.html" class="catalog-single__title"> Беспроводной пылесос</a>
+								<a href="product.html" class="catalog-single__counter">
+									<span class="catalog-single__counter-num">40</span> человек воспользовались на этой неделе
+								</a>
+							</div>
+
 						</li>
-						<li class="catalog__item">
-							<a href="" class="catalog__link">
-								<div class="catalog__img">
+						<li class="catalog-single__item">
+
+							<div class="catalog-single__img">
+								<a href="product.html">
 									<picture>
 										<source srcset="img/robot.webp" type="image/webp"><img src="img/robot.jpg" alt="Lorem">
 									</picture>
-								</div>
-								<div class="catalog__title">
-									<h2 class="">Сделай сам</h2>
-								</div>
-							</a>
+								</a>
+							</div>
+							<div class="catalog-single__content">
+								<a href="product.html" class="catalog-single__name">iRobot | Brava jet m6</a>
+								<a href="product.html" class="catalog-single__title"> Беспроводной пылесос</a>
+								<a href="product.html" class="catalog-single__counter">
+									<span class="catalog-single__counter-num">40</span> человек воспользовались на этой неделе
+								</a>
+							</div>
+
+						</li>
+						<li class="catalog-single__item">
+
+							<div class="catalog-single__img">
+								<a href="product.html">
+									<picture>
+										<source srcset="img/robot.webp" type="image/webp"><img src="img/robot.jpg" alt="Lorem">
+									</picture>
+								</a>
+							</div>
+							<div class="catalog-single__content">
+								<a href="product.html" class="catalog-single__name">iRobot | Brava jet m6</a>
+								<a href="product.html" class="catalog-single__title"> Беспроводной пылесос</a>
+								<a href="product.html" class="catalog-single__counter">
+									<span class="catalog-single__counter-num">40</span> человек воспользовались на этой неделе
+								</a>
+							</div>
+
 						</li>
 					</ul>
 				</div>
